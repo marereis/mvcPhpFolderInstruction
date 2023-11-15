@@ -2,11 +2,11 @@
     "name": "mare/mare",
     "autoload": {
         "psr-4": {
-            "Mare\\Src\\": "app/"
+            "Mare\\App\\": "app/"
         },
        "files": [
-        "src/config.php",
-        "src/helpers.php"
+        "bootstrap/config.php",
+        "bootstrap/helpers.php"
        ]
         
     },
